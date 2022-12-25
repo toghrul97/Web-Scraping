@@ -1,9 +1,13 @@
 # Web-Scraping
-Some useful Web Scraping tools:
 
-Download images from google.com
+## Some useful Web Scraping tools
+
+### Download images from google.com
+
+```
 
 def get_photos(n, inp, folder, parent_dir):
+  
     """
     n: amount of images You want to extract. Recommended limit is 400.
     inp: Your request
@@ -61,3 +65,4 @@ def get_photos(n, inp, folder, parent_dir):
                 i += 1
             else:
                 i += 2
+```
